@@ -26,30 +26,27 @@ using MySQL and JDBC.
 
 ## 📂 Project Structure
 
+```
 StudentDb/
 │
 ├── src/
-│ ├── Student.java
-│ ├── Person.java
-│ ├── DataHolder.java
-│ ├── DeleteButtonCell.java
-│ ├── Filter1.java
-│ ├── Filter2.java
-│ └── TestConnection.java (Main Program)
+│   ├── Student.java
+│   ├── Person.java
+│   ├── DataHolder.java
+│   ├── DeleteButtonCell.java
+│   ├── Filter1.java
+│   ├── Filter2.java
+│   └── TestConnection.java (Main Program)
 │
 ├── javafx-sdk-24/
 │
 ├── db/
-│ ├── insertstu.sql
-│ ├── display.sql
-│ └── deletestu.sql
+│   ├── insertstu.sql
+│   ├── display.sql
+│   └── deletestu.sql
 │
 └── mysql-connector-j-9.2.0.jar
-
-markdown
-Copy code
-
----
+```
 
 ## ▶ How to Run
 

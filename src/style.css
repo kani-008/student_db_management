@@ -1,0 +1,112 @@
+/* General Background */
+.root {
+  -fx-background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Styling for the main container */
+.vbox {
+  -fx-alignment: center;
+  -fx-spacing: 20px;
+  -fx-padding: 20px;
+  -fx-background-color: white;
+  -fx-border-radius: 10px;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 5);
+}
+
+/* Buttons styling */
+.button {
+  -fx-background-color: #4caf50; /* Green background */
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+  -fx-font-size: 14px;
+  -fx-padding: 10px 20px;
+  -fx-border-radius: 5px;
+  -fx-cursor: hand;
+  -fx-transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  -fx-background-color: #45a049; /* Darker green on hover */
+}
+
+.button:pressed {
+  -fx-background-color: #388e3c; /* Even darker green when pressed */
+}
+
+/* Labels styling */
+.label {
+  -fx-text-fill: #333333; /* Dark text color */
+  -fx-font-size: 16px;
+  -fx-font-family: Arial, sans-serif;
+  -fx-font-weight: normal;
+  -fx-padding: 5px;
+}
+
+/* ComboBox styling */
+.combo-box {
+  -fx-background-color: #ffffff;
+  -fx-border-color: #cccccc;
+  -fx-border-radius: 5px;
+  -fx-padding: 5px;
+  -fx-font-size: 14px;
+}
+
+.combo-box:hover {
+  -fx-border-color: #4caf50;
+}
+
+/* TableView Styling */
+.table-view {
+  -fx-background-color: white;
+  -fx-border-color: #e0e0e0;
+  -fx-border-width: 1px;
+  -fx-padding: 10px;
+  -fx-table-cell-border-color: transparent;
+  -fx-font-size: 14px;
+}
+
+/* Table columns */
+.table-column {
+  -fx-text-fill: #333333;
+  -fx-font-size: 14px;
+  -fx-alignment: center;
+}
+
+.table-view .column-header {
+  -fx-background-color: #4caf50;
+  -fx-text-fill: white;
+}
+
+/* Delete Button inside Table */
+.table-view .delete-button {
+  -fx-background-color: #f44336;
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+  -fx-font-size: 14px;
+  -fx-border-radius: 5px;
+}
+
+.table-view .delete-button:hover {
+  -fx-background-color: #d32f2f; /* Darker red on hover */
+}
+
+/* Styling for Input Fields */
+.text-field {
+  -fx-background-color: white;
+  -fx-border-color: #cccccc;
+  -fx-border-radius: 5px;
+  -fx-font-size: 14px;
+  -fx-padding: 5px;
+}
+
+.text-field:focused {
+  -fx-border-color: #4caf50; /* Green border when focused */
+}
+
+/* Styling for the WebView */
+.web-view {
+  -fx-background-color: #f4f4f4;
+  -fx-border-radius: 10px;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 5);
+  -fx-padding: 10px;
+}

@@ -1,0 +1,8 @@
+DELIMITER //
+
+CREATE PROCEDURE display()
+BEGIN
+    SELECT * FROM stu;
+END //
+
+DELIMITER ;
